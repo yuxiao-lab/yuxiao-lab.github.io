@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery | Xiao Lab</title>
+  <meta name="description" content="Gallery from Xiao Lab at Fudan University.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Xiao Lab home">
+      <span class="brand-mark">XL</span>
+      <span>
+        <strong>Xiao Lab</strong>
+        <small>Fudan Chemistry</small>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="people.html">People</a>
+      <a href="publications.html">Publications</a>
+      <a class="active" href="gallery.html">Gallery</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero compact-hero">
+      <p class="eyebrow">Gallery</p>
+      <h1>Moments from the lab and beyond.</h1>
+    </section>
+
+    <section class="section gallery-grid">
+      <figure>
+        <img src="assets/gallery-20250910-2.jpg" alt="Lab group photo" loading="lazy" decoding="async">
+        <figcaption>Lab gathering, September 2025.</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/gallery-20250910.jpg" alt="Lab members together" loading="lazy" decoding="async">
+        <figcaption>Lab moment, September 2025.</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/gallery-20260411-sheshan.jpg" alt="Group visit to Sheshan" loading="lazy" decoding="async">
+        <figcaption>Sheshan outing, April 2026.</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Xiao Lab, Department of Chemistry, Fudan University</p>
+    <p>2005 Songhu Road, Yangpu District, Shanghai 200438, China</p>
+  </footer>
+  <script>
+    (function () {
+      var btn = document.querySelector('.nav-toggle');
+      var nav = document.querySelector('.site-nav');
+      if (!btn || !nav) return;
+      btn.addEventListener('click', function () {
+        var open = nav.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open);
+      });
+    })();
+  </script>
+</body>
+</html>

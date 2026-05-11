@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xiao Lab | Fudan University</title>
+  <meta name="description" content="Xiao Lab at the Department of Chemistry, Fudan University. Chemical biology tools for RNA regulation, spatial sequencing, and RNA-based therapeutics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/fudan-campus.jpg">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Xiao Lab home">
+      <span class="brand-mark">XL</span>
+      <span>
+        <strong>Xiao Lab</strong>
+        <small>Fudan Chemistry</small>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="people.html">People</a>
+      <a href="publications.html">Publications</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Xiao Lab introduction">
+      <div class="hero-copy">
+        <p class="eyebrow">Department of Chemistry / Fudan University</p>
+        <h1>Xiao Lab</h1>
+        <p>We develop chemical biology tools to map RNA regulation with high sensitivity, spatial resolution, and translational intent.</p>
+        <div class="hero-actions">
+          <a class="button" href="research.html">Explore Research</a>
+          <a class="button button-ghost" href="publications.html">View Publications</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro-grid">
+      <div>
+        <p class="eyebrow">RNA regulation in context</p>
+        <h2>From molecular mechanisms to spatially resolved biology.</h2>
+      </div>
+      <div class="intro-copy">
+        <p>A central pillar of our research is the development of advanced nucleic acid detection methodologies. We focus on engineering high-sensitivity, high-resolution platforms to profile RNA-protein interactions, particularly within limited or challenging biological samples.</p>
+        <p>We pair technology development with biological discovery, aiming to uncover how RNA regulatory circuits shape cell state, tissue architecture, and disease-relevant processes.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Research directions</p>
+        <h2>Core interests</h2>
+      </div>
+      <div class="research-cards">
+        <article class="card">
+          <span class="card-kicker">01</span>
+          <h3>Nucleic acid detection</h3>
+          <p>Engineering sensitive methods for profiling RNA-protein interactions and regulatory features in limited biological samples.</p>
+        </article>
+        <article class="card">
+          <span class="card-kicker">02</span>
+          <h3>Spatial RNA sequencing</h3>
+          <p>Developing in situ approaches that connect RNA regulation to tissue organization and microenvironmental context.</p>
+        </article>
+        <article class="card">
+          <span class="card-kicker">03</span>
+          <h3>RNA-based therapeutics</h3>
+          <p>Translating mechanistic insights into next-generation RNA therapeutics with improved biological specificity.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section news-band">
+      <div class="section-heading">
+        <p class="eyebrow">Recent work</p>
+        <h2>Selected updates</h2>
+      </div>
+      <div class="news-list">
+        <article>
+          <time>2026</time>
+          <h3>Spatially resolved m6A profiling using m6A-ARTR-DBiT accepted in Nature Methods.</h3>
+        </article>
+        <article>
+          <time>2026</time>
+          <h3>Review on methodological advances in protein-centered RNA-protein interaction studies published in Science China Life Sciences.</h3>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Xiao Lab, Department of Chemistry, Fudan University</p>
+    <p>2005 Songhu Road, Yangpu District, Shanghai 200438, China</p>
+  </footer>
+  <script>
+    (function () {
+      var btn = document.querySelector('.nav-toggle');
+      var nav = document.querySelector('.site-nav');
+      if (!btn || !nav) return;
+      btn.addEventListener('click', function () {
+        var open = nav.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open);
+      });
+    })();
+  </script>
+</body>
+</html>

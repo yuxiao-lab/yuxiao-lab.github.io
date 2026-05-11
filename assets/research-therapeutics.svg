@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">RNA therapeutic design schematic</title>
+  <desc id="desc">A stylized RNA therapeutic entering target cells with specificity filters.</desc>
+  <rect width="720" height="480" rx="24" fill="#f7f4ef"/>
+  <g transform="translate(74 126)">
+    <circle cx="116" cy="126" r="94" fill="#d9ebe8"/>
+    <circle cx="116" cy="126" r="54" fill="#ffffff"/>
+    <path d="M58 126 C90 74 132 178 174 126" fill="none" stroke="#0b7873" stroke-width="12" stroke-linecap="round"/>
+    <path d="M58 126 C90 74 132 178 174 126" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 18"/>
+  </g>
+  <g transform="translate(332 102)">
+    <path d="M46 136 C90 68 152 204 206 118 S282 70 326 130" fill="none" stroke="#0b7873" stroke-width="16" stroke-linecap="round"/>
+    <path d="M46 136 C90 68 152 204 206 118 S282 70 326 130" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-dasharray="2 28"/>
+    <g fill="#b3602a">
+      <circle cx="126" cy="126" r="30"/>
+      <circle cx="242" cy="102" r="24"/>
+    </g>
+    <g fill="#17212b">
+      <rect x="62" y="224" width="250" height="12" rx="6"/>
+      <rect x="94" y="256" width="188" height="12" rx="6"/>
+    </g>
+  </g>
+  <g stroke="#17212b" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M238 250 C282 240 310 218 340 184"/>
+    <path d="M330 184h28v28"/>
+  </g>
+  <g fill="#ffffff" stroke="#0b7873" stroke-width="5">
+    <rect x="224" y="74" width="116" height="48" rx="24"/>
+    <rect x="230" y="350" width="156" height="48" rx="24"/>
+  </g>
+  <text x="247" y="105" fill="#0b7873" font-family="Arial, sans-serif" font-size="17" font-weight="700">specificity</text>
+  <text x="258" y="381" fill="#0b7873" font-family="Arial, sans-serif" font-size="17" font-weight="700">delivery</text>
+  <text x="72" y="70" fill="#17212b" font-family="Arial, sans-serif" font-size="28" font-weight="700">RNA therapeutic design</text>
+  <text x="72" y="104" fill="#56616c" font-family="Arial, sans-serif" font-size="18">Mechanistic RNA regulation translated into intervention</text>
+</svg>

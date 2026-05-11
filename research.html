@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research | Xiao Lab</title>
+  <meta name="description" content="Research directions of Xiao Lab at Fudan University.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Xiao Lab home">
+      <span class="brand-mark">XL</span>
+      <span>
+        <strong>Xiao Lab</strong>
+        <small>Fudan Chemistry</small>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a class="active" href="research.html">Research</a>
+      <a href="people.html">People</a>
+      <a href="publications.html">Publications</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero compact-hero">
+      <p class="eyebrow">Research</p>
+      <h1>Chemical biology tools for RNA regulation.</h1>
+      <p>We build experimental platforms that connect RNA-binding events, spatial organization, and therapeutic design.</p>
+    </section>
+
+    <section class="section research-layout">
+      <article class="research-block">
+        <img class="research-figure" src="assets/research-rbp.svg" alt="Schematic of RNA-protein interaction mapping" loading="lazy" decoding="async">
+        <div>
+          <span class="card-kicker">01</span>
+          <h2>Advanced nucleic acid detection</h2>
+          <p>A central pillar of our research is the development of advanced nucleic acid detection methodologies. We focus on engineering high-sensitivity, high-resolution platforms to profile RNA-protein interactions, particularly within limited or challenging biological samples.</p>
+          <p class="figure-note">Inspired by ARTR-seq and protein-centered RNA-protein interaction studies.</p>
+        </div>
+      </article>
+
+      <article class="research-block">
+        <img class="research-figure" src="assets/research-spatial.svg" alt="Schematic of spatial RNA sequencing across tissue regions" loading="lazy" decoding="async">
+        <div>
+          <span class="card-kicker">02</span>
+          <h2>Spatially resolved RNA sequencing</h2>
+          <p>To bridge the gap between molecular mechanisms and tissue architecture, we develop spatially resolved RNA sequencing technologies. These tools allow us to visualize the spatial organization of RNA regulation in situ, revealing how the cellular microenvironment shapes transcriptional and post-transcriptional coordination.</p>
+          <p class="figure-note">Concept aligned with spatial m6A profiling using m6A-ARTR-DBiT.</p>
+        </div>
+      </article>
+
+      <article class="research-block">
+        <img class="research-figure" src="assets/research-therapeutics.svg" alt="Schematic of RNA-based therapeutic design" loading="lazy" decoding="async">
+        <div>
+          <span class="card-kicker">03</span>
+          <h2>RNA-based therapeutics</h2>
+          <p>Ultimately, we aim to translate these mechanistic insights into therapeutic innovation. By leveraging our understanding of RNA-binding proteins and regulatory circuits, we are designing next-generation RNA-based therapeutics with enhanced clinical specificity.</p>
+          <p class="figure-note">Extending mechanistic RNA regulation toward programmable intervention.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Xiao Lab, Department of Chemistry, Fudan University</p>
+    <p>2005 Songhu Road, Yangpu District, Shanghai 200438, China</p>
+  </footer>
+  <script>
+    (function () {
+      var btn = document.querySelector('.nav-toggle');
+      var nav = document.querySelector('.site-nav');
+      if (!btn || !nav) return;
+      btn.addEventListener('click', function () {
+        var open = nav.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open);
+      });
+    })();
+  </script>
+</body>
+</html>
