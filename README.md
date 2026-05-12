@@ -12,9 +12,4 @@ Static GitHub Pages site for Xiao Lab at Fudan University.
 - `gallery.html` - photo gallery
 - `assets/` - optimized images and shared CSS
 
-## GitHub Pages
 
-Push this folder to a repository named `username.github.io`, or enable GitHub Pages from the repository settings and set the source to the root folder.
-=======
-yigebole
->>>>>>> 6f635b26f910d34515f263bc3cf44332f2d16f1c
