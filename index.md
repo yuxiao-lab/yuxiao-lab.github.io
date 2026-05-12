@@ -1,6 +1,0 @@
-stvcr.dsm.generate_video(adata, 
-                         model_path=model_path, 
-                         st_classifier_path=st_classifier_save_path, 
-                         label_to_cell_type_map=label_to_cell_type_map, 
-                         save_path=video_save_path,
-                         show_or_save='save_and_show',
