@@ -394,8 +394,8 @@ a {
 
 .research-figure {
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: contain;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--subtle);
